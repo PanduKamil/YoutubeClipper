@@ -11,7 +11,7 @@ public class Main {
         YoutubeService ytService = new YoutubeService(executor);
         ClipperService clipper = new ClipperService(executor);
 
-        String url = "https://youtu.be/PCaNmV7mcoY?si=mazEzqLuRLvRqbSa";
+        String url = "https://youtu.be/It_2_5Jf78U?si=wPlryygvt2TdcVla";
 
         try {
             // 1. Ambil link stream SEKALI saja
@@ -21,7 +21,7 @@ public class Main {
 
             // 2. Daftar potongan (Start, Durasi, Nama File)
             String[][] clips = {
-                {"00:00:10", "00:00:05", "potongan_awal.mp4"},
+                {"00:00:10", "00:00:10", "potongan_awal.mp4"},
                 {"00:01:00", "00:00:15", "potongan_tengah.mp4"},
                 {"00:02:30", "00:00:10", "potongan_akhir.mp4"}
             };
